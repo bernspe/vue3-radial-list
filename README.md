@@ -1,7 +1,5 @@
-# Vue3RadialList
+# Vue3RadialList <img src="public/circle_menu.svg" alt="Circular Menu Logo" width="50"/>
 A Vue3Typescript component that displays a list of items in a circular layout.
-[Circular Menu Logo](public/circle_menu.svg)
-
 
 ## Features
 - Circular arrangement of list items

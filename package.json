@@ -1,6 +1,6 @@
 {
   "name": "vue3-radial-list",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "type": "module",
   "engines": {
@@ -9,7 +9,11 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepublishOnly": "npm run build"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
   "files": ["dist", "src/components/"],
   "keywords": [
@@ -26,6 +30,10 @@
     "vue",
     "vuejs"
   ],
+  "repository": {
+  "type": "git",
+  "url": "git+https://github.com/bernspe/vue3-radial-list.git"
+},
   "description": "Vue3 + TypeScript Radial list component",
   "main": "dist/vue3-radial-list.umd.cjs",
   "module": "dist/vue3-radial-list.js",
