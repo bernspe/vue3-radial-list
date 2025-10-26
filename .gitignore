@@ -36,7 +36,6 @@ coverage
 __screenshots__/
 
 npm-publishing-hints.txt
-package-lock.json
 
 # Project exclude paths
 /vite.config.d.ts
